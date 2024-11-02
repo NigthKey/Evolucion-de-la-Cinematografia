@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolución de la Cinematografía</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://cdn.euroinnova.edu.es/img/subidasEditor/adobestock_113981281-1555487115-1612191928.webp'); /* Cambia a la ruta de tu imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+            background-position: center; /* Centra la imagen */
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 0; /* Aumenta el padding para un mejor espacio */
+            color: white; /* Color del texto del header */
+        }
+
+        h1 {
+            font-size: 3em; /* Tamaño del título más grande */
+            margin: 0; /* Elimina el margen */
+        }
+
+        .content {
+            background-color: #f8f4e3; /* Blanco hueso */
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px auto; /* Agrega margen superior/inferior */
+            max-width: 800px; /* Máximo ancho del contenido */
+            opacity: 0; /* Inicialmente oculto */
+            transform: translateY(50px); /* Desplazado hacia abajo */
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Transiciones */
+        }
+
+        /* Clase para mostrar el contenido al hacer scroll */
+        .show {
+            opacity: 1; /* Hacer visible */
+            transform: translateY(0); /* Volver a la posición original */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333; /* Color de fondo del pie */
+            color: white; /* Color del texto del pie */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2 {
+            margin-top: 20px; /* Margen superior para títulos de secciones */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Evolución de la Cinematografía</h1>
+    </header>
+    
+    <div class="content" id="content">
+        <h2>1. Los Primeros Pasos del Cine (1890-1905)</h2>
+        <p>
+            La cinematografía nació oficialmente en 1895, cuando los hermanos Lumière presentaron sus primeros cortometrajes, como <em>La salida de los obreros de la fábrica</em>. Estos fueron considerados documentales porque mostraban la realidad de la vida cotidiana sin narración. Aunque los Lumière vieron el cine como una invención pasajera, otros pioneros como Georges Méliès comprendieron su potencial para contar historias. Méliès creó el primer cine de fantasía, experimentando con efectos especiales y narrativas, como en <em>Viaje a la luna</em> (1902). Esta fase pionera sentó las bases técnicas del cine y atrajo la atención del público por su capacidad de capturar el movimiento.
+        </p>
+        
+        <h2>2. El Cine Mudo y el Establecimiento de la Narrativa (1906-1927)</h2>
+        <p>
+            A medida que las películas evolucionaron, directores comenzaron a emplear técnicas narrativas para contar historias complejas. Este fue el periodo de auge del cine mudo, en el que se consolidaron géneros y técnicas. D. W. Griffith introdujo el montaje para manipular el tiempo y espacio en obras como <em>El nacimiento de una nación</em> (1915), que influenció el lenguaje cinematográfico. Durante esta etapa, Hollywood se consolidó como el centro de producción mundial, y las películas se volvieron cada vez más ambiciosas en duración y contenido, con grandes actores como Charlie Chaplin y Buster Keaton, quienes popularizaron el humor y el drama en pantalla sin necesidad de diálogos.
+        </p>
+        
+        <h2>3. La Era del Cine Sonoro (1927-1945)</h2>
+        <p>
+            Con el estreno de <em>El cantante de jazz</em> en 1927, el cine experimentó un cambio fundamental: el sonido sincronizado. Este avance revolucionó el medio y llevó a una nueva era de narración. La posibilidad de añadir diálogos y música transformó los géneros cinematográficos y dio pie al auge de los musicales y películas de suspenso, donde el sonido desempeñaba un rol crucial en la construcción de atmósferas. Durante este periodo también surgieron los primeros sistemas de color, como el Technicolor, aunque el blanco y negro siguió siendo popular hasta bien entrados los años 50. En esta etapa, Hollywood se fortaleció con el sistema de estudios, estableciendo estrellas y producciones de gran escala.
+        </p>
+        
+        <h2>4. La Edad de Oro de Hollywood y la Expansión de Géneros (1945-1960)</h2>
+        <p>
+            La posguerra trajo un boom cinematográfico, especialmente en Estados Unidos. Hollywood vivió su "Edad de Oro", dominando con géneros como el western, el cine negro y las épicas históricas. Las películas se volvieron más accesibles, y el star system promovió a actores como Marilyn Monroe, Humphrey Bogart y Audrey Hepburn. Durante esta época, el cine europeo también comenzó a destacarse, con movimientos como el neorrealismo italiano de directores como Vittorio De Sica y Federico Fellini, que retrataban la vida cotidiana con un enfoque casi documental. Esta etapa también vio la aparición de los drive-in y el formato de pantalla ancha para competir con la creciente popularidad de la televisión.
+        </p>
+        
+        <h2>5. La Época de los Autores y Nuevas Formas Narrativas (1960-1980)</h2>
+        <p>
+            A partir de los años 60, el cine experimentó una ruptura con las fórmulas clásicas, y surgieron movimientos como la Nouvelle Vague en Francia, liderada por directores como François Truffaut y Jean-Luc Godard, que exploraban nuevas técnicas de narrativa y edición. En Estados Unidos, el "Nuevo Hollywood" permitió la entrada de jóvenes directores como Martin Scorsese, Francis Ford Coppola y Stanley Kubrick, quienes abordaron temas complejos y más personales, como la violencia y la psicología humana. Fue una época en la que el cine se volvió más introspectivo y arriesgado, y también se popularizaron los géneros de ciencia ficción y terror, con películas emblemáticas como <em>2001: Odisea en el espacio</em> y <em>El exorcista</em>.
+        </p>
+        
+        <h2>6. El Auge de los Efectos Especiales y el Blockbuster (1980-2000)</h2>
+        <p>
+            Los avances en efectos especiales, junto con el estreno de <em>Star Wars</em> en 1977, dieron inicio a la era de los blockbusters. Directores como Steven Spielberg y George Lucas dominaron las taquillas con películas de acción y aventura llenas de efectos visuales. Durante esta época, el cine comercial creció en popularidad y alcanzó una escala global. El desarrollo de la animación digital, impulsado por Pixar y la creación de <em>Toy Story</em> en 1995, cambió la industria y abrió nuevas posibilidades en el cine animado. Los 90 también trajeron el auge de los festivales de cine independiente, permitiendo el surgimiento de cineastas con estilos únicos como Quentin Tarantino.
+        </p>
+        
+        <h2>7. La Era Digital y el Cine Contemporáneo (2000-Presente)</h2>
+        <p>
+            A partir de los años 2000, el cine entró en una era digital con la transición de las cámaras de película al formato digital, facilitando la producción y distribución. El cine 3D y los efectos visuales avanzados permitieron experiencias inmersivas en películas como <em>Avatar</em> (2009). Al mismo tiempo, las plataformas de streaming cambiaron el modelo de distribución, permitiendo que más personas accedan a contenido desde sus hogares. Hoy en día, el cine sigue evolucionando con tecnologías de realidad virtual, interactividad y proyecciones en alta definición, ofreciendo una variedad sin precedentes y una accesibilidad global que rompe las barreras del cine tradicional.
+        </p>
+
+        <h2>Video sobre la Evolución de la Cinematografía</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/46f4cvV8LI0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pablo Sanic. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Mostrar el contenido al hacer scroll
+       
 
